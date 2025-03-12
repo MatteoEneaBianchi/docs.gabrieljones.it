@@ -5,7 +5,7 @@ permalink: /
 layout: home
 
 hero:
-  image: /assets/uswds/img/hero.png
+  image: https://gabrieljones.it/assets/images/WhatsApp%20Image%202025-03-05%20at%2008.18.07.jpeg
   callout:
     alt: "Hero callout:"
     text: Bring attention to a current priority
