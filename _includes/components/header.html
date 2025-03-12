@@ -17,12 +17,12 @@
           href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}"
           title="Home">
           {% if header.logo %}
-<img
-  class="usa-logo-img"
-  src="{% if header.logo.external %}{{ header.logo.src }}{% else %}{{ header.logo.src | relative_url }}{% endif %}"
-  alt="{{ header.logo.alt }}"
-  width="150" height="50"
-  >
+            <img
+              class="usa-logo-img"
+              src="{% if header.logo.external %}{{ header.logo.src }}{% else %}{{ header.logo.src | relative_url }}{% endif %}"
+              alt="{{ header.logo.alt }}"
+              width="150" height="50"
+            >
           {% endif %}
           <em class="usa-logo__text">
             {{ header.title | default: site.title }}
