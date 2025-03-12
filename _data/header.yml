@@ -21,7 +21,7 @@ type: extended
 # Configuration for site header logo
 # If the logo is external add external: true
 logo:
-  src: https://matteoeneabianchi.github.io/docs.gabrieljones.it//assets/img/Black_Beige_Circle_Y2K_Illustrative_Class_Logo-removebg-preview.png
+  src: https://matteoeneabianchi.github.io/docs.gabrieljones.it/assets/img/Black_Beige_Circle_Y2K_Illustrative_Class_Logo-removebg-preview.png
   alt: 18F
   external: true
 
